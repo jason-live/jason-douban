@@ -36,17 +36,15 @@ const fs = require('fs');
 //     console.log(error);
 //   });
 
-  /** 
-   * promisify
-   */
-
-const util = require('util');
-
-util.promgisify(fs.readFile)('./package.json')
-  .then(JSON.parse)
-  .then((data) => {
-    console.log(data.name);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+/** 
+ * promisify
+ */
+// const util = require('util');
+// util.promgisify(fs.readFile)('./package.json')
+//   .then(JSON.parse)
+//   .then((data) => {
+//     console.log(data.name);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
