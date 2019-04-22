@@ -1,0 +1,11 @@
+/node_modules
+/dist
+/dev
+/release
+.vscode
+.idea
+.DS_Store
+.tags
+.tags1
+*.zip
+package-lock.json
