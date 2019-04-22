@@ -1,0 +1,22 @@
+{
+  "name": "jason-douban",
+  "version": "1.0.0",
+  "description": "豆瓣练习册",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-live/jason-douban.git"
+  },
+  "author": "jasonlive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-live/jason-douban/issues"
+  },
+  "homepage": "https://github.com/jason-live/jason-douban#readme"
+}
