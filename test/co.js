@@ -1,7 +1,7 @@
 const co = require('co');
 const fetch = require('node-fetch');
 
-/** 
+/**
  * co
 */
 // co(function  *() {
@@ -11,7 +11,7 @@ const fetch = require('node-fetch');
 //   console.log(summary);
 // });
 
-/** 
+/**
  * 手写co
 */
 
