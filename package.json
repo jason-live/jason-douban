@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "dev": "babel-node test/module.js --presets env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "devDependencies": {
     "co": "^4.6.0",
     "node-fetch": "^2.3.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
